@@ -11,10 +11,7 @@ def index():
     link = ("https://freegeoip.app/json/{}")
     ipreq = tsp.get_data(link.format(ip))
     iptojson = json.loads(ipreq.content)
-    sctojson = ipreq.sc
-
-
-    
+    sctojson = ipreq.sc   
 
     data = tsp.twsejs(iptojson["latitude"],iptojson["longitude"])
 

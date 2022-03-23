@@ -1,5 +1,17 @@
-# learning flask / three.js
- The purpose of this repo is to learn Flask, React, and Three.js, but it is in its infancy at the moment.
- There is no concrete plan, only a vague direction that I want to flesh out as I learn more.
- Currently it is just a sandbox of sorts but as I learn more it will become an actual project
-# imaging
+# Imaging
+
+ This website shows what appear to be 3d objecs with a glitch effect. It is a concept for a web installation of tweets based on the geolocation of the user that access it. Thanks to the data leaks such as geolocation, public ip address and so on we are able to give a position and the tweets that have been made around the user over a 5 mile area. It combine front end tech like Three.js and backend technology such as Flask python, The back end is necessary to make raquest, get data and secure keys from the public. Once the data is obtained is sent to the fron end as a json formats and js interacts with it. 
+
+ ```bash
+git clone https://github.com/FilippoRomeo/imaging
+cd imaging
+python3 app.py
+```
+
+Visit http://127.0.0.1:5000/
+
+[View example on heroku](https://iamaging.herokuapp.com/)
+ 
+The website
+
+API used are freeGeoIP.app and Tweepy scraper lib for twitter. 
