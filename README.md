@@ -15,6 +15,6 @@ Visit http://127.0.0.1:5000/
 
 [View example on heroku](https://iamaging.herokuapp.com/)
  
-The website
+If it doesn't start, please refresh the page the server is on a free tier and is not always running.
 
 API used are freeGeoIP.app and Tweepy python library for accessing the Twitter API. 
