@@ -5,7 +5,7 @@
  ```bash
 git clone https://github.com/FilippoRomeo/imaging
 ```
-Sign in to the twitter api, get the key and add to the twitter_search.py file  
+Sign in to the [twitter api](https://developer.twitter.com/en/docs/twitter-api), get the key and add em to the [twitter_search.py](https://github.com/FilippoRomeo/imaging/blob/main/twitter_search.py) file.
  ```bash
 cd imaging
 python3 app.py
@@ -17,4 +17,4 @@ Visit http://127.0.0.1:5000/
  
 The website
 
-API used are freeGeoIP.app and Tweepy scraper lib for twitter. 
+API used are freeGeoIP.app and Tweepy python library for accessing the Twitter API. 
