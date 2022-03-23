@@ -4,6 +4,9 @@
 
  ```bash
 git clone https://github.com/FilippoRomeo/imaging
+```
+Sign in to the twitter api, get the key and add to the twitter_serach.py file  
+ ```bash
 cd imaging
 python3 app.py
 ```
