@@ -18,3 +18,5 @@ Visit http://127.0.0.1:5000/
 If it doesn't start, please refresh the page. The server is on a free tier and is not always running.
 
 API used are freeGeoIP.app and Tweepy python library for accessing the Twitter API. 
+
+There might be a problem in running the application due being on heroku, free service that limit the requests. In cas it occours refresh the page.
